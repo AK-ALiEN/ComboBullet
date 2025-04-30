@@ -18,6 +18,15 @@ ComboBullet is a powerful, multi-purpose log processing and combo extraction too
 
 ---
 
+## 🚀 Update v1.0.1
+
+- Cookies keyword file not found bug dixed
+- Multi-threaded file processing using ThreadPoolExecutor
+- Uses all CPU cores for maximum speed in Super-Fast mode
+- Enhanced Robustness:	Errors in threads do not crash the whole process
+
+---
+
 ## Download EXE And Use
 
 [Download Here](https://github.com/ak-alien/ComboBullet/releases/)
