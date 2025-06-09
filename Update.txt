@@ -1,3 +1,3 @@
 {
-version:1.0.1; status:0x1; feature:The updated ComboBullet is now much faster for large-scale file extraction and conversion, thanks to multi-threading with ThreadPoolExecutor. You can choose the mode that best fits your needs, and all original features and extraction accuracy are preserved. Cookies keyword not found bug fixed.;
+version:1.0.1;u-version:1.0.2; status:0x1; feature:The updated ComboBullet is now much faster for large-scale file extraction and conversion, thanks to multi-threading with ThreadPoolExecutor. You can choose the mode that best fits your needs, and all original features and extraction accuracy are preserved. Cookies keyword not found bug fixed.;
 }
