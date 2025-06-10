@@ -6,50 +6,41 @@ ComboBullet is a powerful, multi-purpose log processing and combo extraction too
 
 ## 🔧 Features
 
--  `User:Pass` Extractor (by keyword)
--  `Num:Pass` Extractor (by keyword)
--  `Email:Pass` Extractor (by keyword)
--  Mixed Extractor (User/Email/Num:Pass) with keywords
--  Mixed Extractor (User/Email/Num:Pass) without keywords
+-  `Username:Password` Extractor
+-  `Number:Password` Extractor
+-  `Email:Password` Extractor
+-  Mixed `username/number/email` Extractor
 -  Logs to ULP Converter
--  Cookie Extractor (by keyword)
--  TXT Splitter (by lines, parts, or file size)
--  Line Extractor (by keyword)
+-  Cookie Extractor
 
 ---
 
-## 🚀 Update v1.0.1
+## 🆕 New Update v1.0.2:
 
-- Cookies keyword file not found bug dixed
-- Multi-threaded file processing using ThreadPoolExecutor
-- Uses all CPU cores for maximum speed in Super-Fast mode
-- Enhanced Robustness:	Errors in threads do not crash the whole process
+- ### Graphical User Interface (GUI):
+  A sleek and intuitive GUI has been added to replace the old command-line interface. Navigate and manage your tasks with ease.
+
+- ### Keyword Editor:
+  Now you can manage, edit, and organize your keywords directly within the app. Add, remove, or modify entries with a simple click.
+
+- ### Keyword Filter Toggle:
+  Turn keyword filtering on or off with a single switch — ideal for testing or debugging scenarios.
+
+---
+
+## 🔧 Improvements:
+
+- ### Updated Credential Regex Validation:
+  Enhanced regular expressions for more robust and secure validation of usernames and passwords. Prevents common formatting errors.
+
+- ### Built-in Update Checker:
+  Stay up to date! The app now checks for updates on launch and notifies you when a new version is available.
 
 ---
 
 ## Download EXE And Use
 
 [Download Here](https://github.com/ak-alien/ComboBullet/releases/)
-
----
-
-## 🚀 or How to Use Script
-
-### 1. Download
-
-- Clone the repo or download the ZIP.
-
-```bash
-git clone https://github.com/ak-alien/ComboBullet.git
-```
-
-### 2. Install Requirements
-
-ComboBullet uses standard Python libraries. If needed, install dependencies:
-
-```bash
-pip install requests
-```
 
 ---
 
