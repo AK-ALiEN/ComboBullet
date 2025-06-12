@@ -1,3 +1,3 @@
 {
-version:1.0.2; status:0x1; feature:Added GUI, improved regex for credential validation, added keyword editor, toggleable keyword filter, and built-in update checker.; u_version:1.0.2;
+version:1.0.3; status:0x1; feature:Added GUI, improved regex for credential validation, added keyword editor, toggleable keyword filter, and built-in update checker.; u_version:1.0.2;
 }
