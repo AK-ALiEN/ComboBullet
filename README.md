@@ -15,10 +15,13 @@ ComboBullet is a powerful, multi-purpose log processing and combo extraction too
 
 ---
 
-## 🆕 New Update v1.0.2:
+## 🆕 New Update v1.0.3:
 
 - ### Graphical User Interface (GUI):
   A sleek and intuitive GUI has been added to replace the old command-line interface. Navigate and manage your tasks with ease.
+  
+- ### Progress Bar Added:
+  Visual progress indicator implemented to show task completion status in real time.
 
 - ### Keyword Editor:
   Now you can manage, edit, and organize your keywords directly within the app. Add, remove, or modify entries with a simple click.
@@ -33,8 +36,17 @@ ComboBullet is a powerful, multi-purpose log processing and combo extraction too
 - ### Updated Credential Regex Validation:
   Enhanced regular expressions for more robust and secure validation of usernames and passwords. Prevents common formatting errors.
 
+- ### Update Notifier Integrated:
+  Automatically checks for new versions and notifies users when an update is available.
+
 - ### Built-in Update Checker:
   Stay up to date! The app now checks for updates on launch and notifies you when a new version is available.
+  
+- ### Enhanced Debugging:
+  Improved error handling and logging to make it easier to trace and fix issues.
+
+- ### Full Debug Storage:
+  All debug logs are now saved locally to help analyze and improve app performance over time.
 
 ---
 
