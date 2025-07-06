@@ -56,16 +56,8 @@ ComboBullet is a powerful, multi-purpose log processing and combo extraction too
 
 ---
 
-## 🧑‍💻 Developer
+### 📬 Contact & Support
 
-- **Name**: Aman Khan    
-
-
-If the script stops working, is disabled, or you'd like to suggest a feature:  
-[👉 Contact Admin on Telegram](https://t.me/ak_xlien)
-
----
-
-## 📃 License
-
-This project is licensed under the **MIT License**.
+If the script stops working, is disabled, or you'd like to suggest a feature:
+- 👨‍💻 Developer: [Alien](https://t.me/ak_xlien)
+- 📢 Telegram Channel: [AlienDevLab](https://t.me/AlienDevLab)
