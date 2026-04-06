@@ -1,0 +1,161 @@
+ComboBullet
+===========
+
+ComboBullet is a multi-purpose log processing and credential extraction toolkit for Windows systems.
+It is designed to process raw text logs, extract structured credential data, and organize useful information such as usernames, emails, passwords, and cookies. The tool targets workflows commonly used in data analysis, security research, and penetration testing environments.
+This is not a framework. It is a practical utility.
+
+Quick Start
+-----------
+
+Report a bug: See Documentation/reporting-issues.rst
+Get the latest ComboBullet: https://github.com/AK-ALiEN/ComboBullet/releases/latest
+Join the community: https://t.me/aliendevlab
+
+
+What it does
+------------
+
+ComboBullet reads unstructured `.txt` log files and converts them into usable, categorized outputs.
+
+Supported extraction types include:
+
+* Username:Password combinations
+* Email:Password combinations
+* Number:Password combinations
+* Mixed credential formats
+* Cookie data extraction
+* Log-to-ULP conversion
+
+The goal is simple: take noisy input and produce clean, usable data.
+
+
+Why it exists
+-------------
+
+Working with large log files is inefficient when done manually.
+
+ComboBullet exists to:
+
+* Reduce time spent filtering logs
+* Standardize credential extraction
+* Eliminate malformed or invalid entries
+* Provide a repeatable workflow for handling combo data
+
+It focuses on speed, simplicity, and reliability.
+
+
+Core Features
+-------------
+
+* Graphical User Interface (GUI)
+* Real-time progress tracking
+* Keyword editor for managing filters
+* Multiple extraction modes for different credential formats
+* Regex-based validation for improved accuracy
+* Cookie parsing and extraction support
+* Log conversion utilities
+* Keyword-based filtering system
+* Toggleable filtering logic for testing scenarios
+* Built-in update checker
+* Debug logging and error tracing
+
+
+How it works
+------------
+
+1. Provide raw log files (.txt)
+2. Select extraction mode
+3. Apply filters (optional)
+4. Run processing
+5. Export cleaned output
+
+The tool handles parsing, validation, and formatting internally.
+
+
+System Requirements
+-------------------
+
+* Windows OS
+* .NET runtime (if required by build)
+* Basic system resources (depends on log size)
+
+No external dependencies are required for normal usage.
+
+
+Usage
+-----
+
+Download the compiled executable and run it.
+
+No installation process is required.
+
+Typical usage:
+
+* Load logs
+* Choose extraction type
+* Configure filters
+* Execute
+
+Output files will be generated automatically.
+
+
+Output Format
+-------------
+
+Outputs are generated in structured `.txt` format.
+
+Examples:
+
+* email:password
+* username:password
+* number:password
+
+Cookies and converted logs follow their respective structured formats.
+
+
+Design Philosophy
+-----------------
+
+ComboBullet follows a few simple rules:
+
+* Do one job well
+* Avoid unnecessary complexity
+* Prioritize performance over aesthetics
+* Keep everything local and self-contained
+
+
+Limitations
+-----------
+
+* Windows-only environment
+* Depends on input quality (garbage in → garbage out)
+* Not intended for real-time processing pipelines
+
+
+Security & Responsibility
+-------------------------
+
+This tool is intended for:
+
+* Educational purposes
+* Security research
+* Authorized data analysis
+
+You are responsible for how you use it.
+
+Do not use ComboBullet on data you do not own or have permission to process.
+
+
+Contact
+-------
+
+Developer: https://t.me/ak_xlien
+
+
+Final Notes
+-----------
+
+ComboBullet is a tool built for utility, not presentation.
+
+If it saves you time, it has done its job.
