@@ -59,6 +59,7 @@ Core Features
 * Toggleable filtering logic for testing scenarios
 * Built-in update checker
 * Debug logging and error tracing
+* Fast Mode with multi-threading support for improved performance
 
 
 How it works
@@ -81,6 +82,19 @@ System Requirements
 * Basic system resources (depends on log size)
 
 No external dependencies are required for normal usage.
+
+
+Download Options
+----------------
+
+ComboBullet is available in four build configurations:
+
+1. win-x64 - Self-contained Single EXE (64-bit systems)
+2. win-x86 - Self-contained Single EXE (32-bit systems)
+3. win-arm64 - Self-contained Single EXE (ARM-based Windows devices)
+4. Framework-dependent - Small size, requires .NET runtime pre-installed
+
+Choose the version that best fits your system architecture and requirements.
 
 
 Usage
